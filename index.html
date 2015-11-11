@@ -25,10 +25,10 @@
 <h3 id="discarding-recent-changes">Discarding recent changes</h3>
 <p>This is the most common case: You've made some changes and broken something, you haven't commited the changes to your repository and just want to get back to when things were working 5 minutes ago.</p>
 <p>Here's how you do it.</p>
-<p>First make some changes, some <em>BAD</em> changes. Go into <code>index.html</code> in the repo you just made, change a bunch of stuff and save the file. Oh no, let's fix this terrible mess!</p>
+<p>First go into your text editor and make some changes, some <em>BAD</em> changes. Go into <code>index.html</code> in the repo you just made, change a bunch of stuff and save the file. Oh no, let's fix this terrible mess!</p>
 <p>The main panel on the GitHub desktop client can show one of two things 'Uncomitted Changes' or 'History'. Make sure you're looking at uncomitted changes. That fine mess you just made should be shown on the right and the name of the file in which you made it on the left right-click (or cmd-click if you prefer) on the file name and select 'Discard Changes...'</p>
 <p><img src="discard-changes.png" alt="Discard changes menu"></p>
-<p>You'll then be asked to confirm you want to discard your chages</p>
+<p>You'll then be asked to confirm you want to discard your chages:</p>
 <blockquote>
 <p>Are you sure you want to discard all changes to "index.html"?</p>
 </blockquote>
@@ -36,8 +36,18 @@
 <p>Now if you go back into your editor you'll see the file is in it's nice un-ruined original condition.</p>
 <hr>
 <h3 id="rolling-back-to-a-certain-point-in-history">Rolling back to a certain point in history</h3>
-<h3 id="branching-and-merging">Branching and merging</h3>
+<p>Make some mistakes and commit them to your repository.</p>
+<p>Uh oh! You've made more of a mess of things and commited your changes to the repository! Don't worry, all is not lost you can go back to any point in your commit history and make things right again.</p>
+<p>If you make small commits, relating to a single feature or file then this can be relatively painless  otherwise it can be a bit tricky. </p>
+<p>There are a couple of places within the GitHub app where you can review your commit history:</p>
+<p><img src="commit-history.png" alt="places hwere you can navigate through your commit history"></p>
+<p>To revert a commit, select that commit either from the list on the left, or the timeline above.</p>
+<p>When you've selected your commit you can see the details of what that commit changed in the main panel. Click on the little cog icon to reveal a menu and select 'Revert This Commit'</p>
+<p><img src="revert-menu.png" alt="revert this commit"></p>
+<p>If you want to go back several commits your best bet it to revert them in order from newest to oldest. If you revert commits in any other order, you may see merge conflicts -- you don't want that.</p>
 <hr>
+<h3 id="branching-and-merging">Branching and merging</h3>
 <p>Although we'll be using the GitHub client you can do similar thinsg with the command line or other UIs like SourceTree</p>
+</body>
 </body>
 </html>

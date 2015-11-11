@@ -65,5 +65,5 @@ If you want to go back several commits, your best bet it to revert them in order
 ###Branching and merging
 
 
-
-Although we'll be using the GitHub client you can do similar thinsg with the command line or other UIs like SourceTree
+---
+Remember: Although we'll be using the GitHub client you can do similar thinsg with the command line or other UIs like SourceTree
