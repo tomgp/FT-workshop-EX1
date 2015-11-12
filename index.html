@@ -10,7 +10,10 @@
 <body><p>First exercise for a D3 workshop running at the Financial Times</p>
 <ul>
 <li><strong>Prerequisit:</strong> An idea of what Git is.</li>
-<li><strong>Prerequisit:</strong> The GitHub desktop client ( <a href="https://desktop.github.com/">download the GitHub desktop client</a> )</li>
+<li><strong>Prerequisit:</strong> The GitHub desktop client ( <a href="https://desktop.github.com/">download the GitHub desktop client</a> )
+</li>
+<li><strong>Outcome:</strong> After doing this excercise you should have a good idea of how go back to earlier versions of your code allowing you to make changes with confidence that you're not going to irrevocably screw up all the stuff you've already got working.
+</li>
 </ul>
 <hr>
 <h1 id="reverting-changes-with-git">Reverting changes with Git</h1>
@@ -44,10 +47,21 @@
 <p>To revert a commit, select that commit either from the list on the left, or the timeline above.</p>
 <p>When you've selected your commit you can see the details of what that commit changed in the main panel. Click on the little cog icon to reveal a menu and select 'Revert This Commit'</p>
 <p><img src="revert-menu.png" alt="revert this commit"></p>
-<p>If you want to go back several commits your best bet it to revert them in order from newest to oldest. If you revert commits in any other order, you may see merge conflicts -- you don't want that.</p>
+<p>Phew!</p>
+<p>If you want to go back several commits, your best bet it to revert them in order from newest to oldest. If you revert commits in any other order, you may see merge conflicts -- you don't want that.</p>
 <hr>
 <h3 id="branching-and-merging">Branching and merging</h3>
-<p>Although we'll be using the GitHub client you can do similar thinsg with the command line or other UIs like SourceTree</p>
-</body>
+<p>A good way to use git for developing -- espescially in a situation where you may want several people working on the code at the same time -- is to make a new branch for each new feature as you start working on it and then, when you're happy with that feature and it all works, merge it back into the <em>master</em> branch.</p>
+<p>So first: Let's make a new branch. Make sure you don't have any outstanding commits and then in the tool bar of the GitHub desktop app there's a little button with a sort of branching line and a +. Click that and you'll be prompted to give your new branch a name. See:</p>
+<p><img src="branch-dialogue.png" alt="branch dialogue"></p>
+<p>Give the branch a sensible name, something that describes the feature you want to add or the fix you want to make. Something like 'add-colour-picker' or 'extract-linechart-drawing' and click 'Create Branch' you'll automatically be switched to that branch and any new commits you make will be to that branch. </p>
+<p>When you're happy with all the changes you've made and commited, switch back to the 'master' branch using this little menu:</p>
+<p><img src="switch-branch.png" alt="switch branch"></p>
+<p>This will then allow you to compare your branch with the 'master' each comit being a dot on the timeline the split in the timeline being the point at which you branched. </p>
+<p>If you're happy with what you've done you can click the 'update from <em>your-branch-name-here</em>' buttonn and a new commit will be created on your master branch with all the changes now available there.</p>
+<p><img src="update.png" alt="update screen"></p>
+<p>A more advanced version of this workflow, suitable for larger projects is <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow/">Gitflow, a clear explanation of which can be found by following this link that you're reading right now</a></p>
+<hr>
+<p>Remember: Although we'll be using the GitHub client you can do similar thinsg with the command line or other UIs like SourceTree</p>
 </body>
 </html>
