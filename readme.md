@@ -64,6 +64,15 @@ If you want to go back several commits, your best bet it to revert them in order
 
 ###Branching and merging
 
+A good way to use git for developing -- espescially in a situation where you may want several people working on the code at the same time -- is to make a new branch for each new feature as you start working on it and then, when you're happy with that feature and it all works, merge it back into the *master* branch.
+
+So first: Let's make a new branch. Make sure you don't have any outstanding commits and then in the tool bar of the GitHub desktop app there's a little button with a sort of branching line and a +. Click that and you'll be prompted to give your new branch a name. See:
+
+![branch dialogue](branch-dialogue.png)
+
+Give the branch a sensible name, something that describes the feature you want to add or the fix you want to make. Something like 'add-colour-picker' or 'extract-linechart-drawing'
+
+A more advanced version of this workflow, suitable for larger projects is [Gitflow, a clear explanation of which can be found by following this link that you're reading right now](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow/)
 
 ---
 Remember: Although we'll be using the GitHub client you can do similar thinsg with the command line or other UIs like SourceTree
