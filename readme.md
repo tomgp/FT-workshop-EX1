@@ -2,6 +2,9 @@ First exercise for a D3 workshop running at the Financial Times
 
  * __Prerequisit:__ An idea of what Git is.
  * __Prerequisit:__ The GitHub desktop client ( [download the GitHub desktop client](https://desktop.github.com/) )
+
+ * __Outcome:__ After doing this excercise you should ahve a good idea of how go back to earlier versions of your code allowing you to make changes with confidence that you're not going to irrevocably screw up all the stuff you've already got working.
+ 
 ---
 #Reverting changes with Git
 
@@ -75,6 +78,12 @@ Give the branch a sensible name, something that describes the feature you want t
 When you're happy with all the changes you've made and commited, switch back to the 'master' branch using this little menu:
 
 ![switch branch](switch-branch.png)
+
+This will then allow you to compare your branch with the 'master' each comit being a dot on the timeline the split in the timeline being the point at which you branched. 
+
+If you're happy with what you've done you can click the 'update from *your-branch-name-here*' buttonn and a new commit will be created on your master branch with all the changes now available there.
+
+![update screen](update.png)
 
 A more advanced version of this workflow, suitable for larger projects is [Gitflow, a clear explanation of which can be found by following this link that you're reading right now](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow/)
 
