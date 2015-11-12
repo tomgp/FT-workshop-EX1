@@ -70,7 +70,11 @@ So first: Let's make a new branch. Make sure you don't have any outstanding comm
 
 ![branch dialogue](branch-dialogue.png)
 
-Give the branch a sensible name, something that describes the feature you want to add or the fix you want to make. Something like 'add-colour-picker' or 'extract-linechart-drawing'
+Give the branch a sensible name, something that describes the feature you want to add or the fix you want to make. Something like 'add-colour-picker' or 'extract-linechart-drawing' and click 'Create Branch' you'll automatically be switched to that branch and any new commits you make will be to that branch. 
+
+When you're happy with all the changes you've made and commited, switch back to the 'master' branch using this little menu:
+
+![switch branch](switch-branch.png)
 
 A more advanced version of this workflow, suitable for larger projects is [Gitflow, a clear explanation of which can be found by following this link that you're reading right now](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow/)
 
