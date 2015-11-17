@@ -3,7 +3,7 @@ First exercise for a D3 workshop running at the Financial Times
  * __Prerequisit:__ An idea of what Git is.
  * __Prerequisit:__ The GitHub desktop client ( [download the GitHub desktop client](https://desktop.github.com/) )
 
- * __Outcome:__ After doing this excercise you should ahve a good idea of how go back to earlier versions of your code allowing you to make changes with confidence that you're not going to irrevocably screw up all the stuff you've already got working.
+ * __Outcome:__ After doing this excercise you should have a good idea of how go back to earlier versions of your code allowing you to make changes with confidence that you're not going to irrevocably screw up all the stuff you've already got working.
  
 ---
 #Reverting changes with Git
@@ -15,7 +15,7 @@ One of the immediate benefits of using source control is that it can increase yo
 Before we start you'll need a local repository to work through the steps on your computer. If you have the GitHub desktop client installed on your computer it should be simply a question of either..
 
  * Visiting [the repository for this excercise](https://github.com/tomgp/FT-workshop-EX1) and clicking on the 'Clone in Desktop' button
- * Clicking [this link here](github-mac://openRepo/https://github.com/tomgp/FT-workshop-EX1), [or this one](github-mac://openRepo/https://github.com/tomgp/FT-workshop-EX1)
+ * Clicking [this link here](github-mac://openRepo/https://github.com/tomgp/FT-workshop-EX1) (on a mac)
 
 ---
 
@@ -25,9 +25,9 @@ This is the most common case: You've made some changes and broken something, you
 
 Here's how you do it.
 
-First go into your text editor and make some changes, some *BAD* changes. Go into `index.html` in the repo you just made, change a bunch of stuff and save the file. Oh no, let's fix this terrible mess!
+First go into your text editor and make some changes in one of the files in the repository, some *BAD* changes. Go into `index.html` in the repo you just made, change a bunch of stuff and save the file. Oh no, let's fix this terrible mess!
 
-The main panel on the GitHub desktop client can show one of two things 'Uncomitted Changes' or 'History'. Make sure you're looking at uncomitted changes. That fine mess you just made should be shown on the right and the name of the file in which you made it on the left right-click (or cmd-click if you prefer) on the file name and select 'Discard Changes...'
+The main panel on the GitHub desktop client can show one of two things 'Uncomitted Changes' or 'History'. Make sure you're looking at uncomitted changes. That fine mess you just made should be shown on the right and the name of the file in which you made it on the left. Right-click (or cmd-click if you prefer) on the file name and select 'Discard Changes...'
 
 ![Discard changes menu](discard-changes.png)
 
@@ -43,11 +43,11 @@ Now if you go back into your editor you'll see the file is in it's nice un-ruine
 
 ###Rolling back to a certain point in history
 
-Make some mistakes and commit them to your repository.
+As in the last part fo this excercise; make some mistakes but this time commit them to your repository. (click the 'commit ...' / 'commit and sync ...' b utton at the end of the list of changed files)
 
 Uh oh! You've made more of a mess of things and commited your changes to the repository! Don't worry, all is not lost you can go back to any point in your commit history and make things right again.
 
-If you make small commits, relating to a single feature or file then this can be relatively painless  otherwise it can be a bit tricky. 
+If you make small commits, relating to a single feature or file then this can be relatively painless otherwise it can be a bit tricky. So sensible commits are a good habit to get into. Some people advocate writing your commit message before you start coding a particular feature, this can help keep you focussed but requires a degree of planning (which is another good thing!). Further reading: [An indepth style guide to writing commit messages](http://chris.beams.io/posts/git-commit/)
 
 There are a couple of places within the GitHub app where you can review your commit history:
 
