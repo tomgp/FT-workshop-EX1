@@ -82,7 +82,9 @@ When you're happy with all the changes you've made and commited, switch back to 
 
 ![switch branch](switch-branch.png)
 
-This will then allow you to compare your branch with the 'master' each comit being a dot on the timeline the split in the timeline being the point at which you branched. 
+This will then allow you to compare your branch with the 'master' each commit being a dot on the timeline the split in the timeline being the point at which you branched. Click on the compare button next to the timeline and select the branch with which you want to  compare
+
+![compare branches](compare.png)
 
 If you're happy with what you've done you can click the 'update from *your-branch-name-here*' buttonn and a new commit will be created on your master branch with all the changes now available there.
 
