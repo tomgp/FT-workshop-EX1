@@ -14,8 +14,9 @@ One of the immediate benefits of using source control is that it can increase yo
 
 Before we start you'll need a local repository to work through the steps on your computer. If you have the GitHub desktop client installed on your computer it should be simply a question of either..
 
- * Visiting [the repository for this excercise](https://github.com/tomgp/FT-workshop-EX1) and clicking on the 'Clone in Desktop' button
- * Clicking [this link here](github-mac://openRepo/https://github.com/tomgp/FT-workshop-EX1) (on a mac)
+ * Visiting [the repository for this excercise](https://github.com/tomgp/FT-workshop-EX1) and...
+ * on a  mac clicking on the 'Clone in Desktop' button 
+ * on Windows "[it turns out you are supposed to drag the URL for the repository from your browser onto the desktop application.](http://joe.blog.freemansoft.com/2014/04/github-clone-to-desktop-with-windows.html)"
 
 ---
 
