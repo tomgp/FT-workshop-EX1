@@ -40,6 +40,8 @@ Yes, you are!
 
 Now if you go back into your editor you'll see the file is in it's nice un-ruined original condition.
 
+_NOTE_ this is not reversible! once changes are discarded they can't be retrieved. This is in contrast to the next method we'll look at...
+
 ---
 
 ###Rolling back to a certain point in history
